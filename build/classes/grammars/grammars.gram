@@ -1,0 +1,21 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <syntax>  = (
+                show time |
+                current time |
+                current date |
+                now time |
+                time now |
+                what is the time |
+                what is the date |
+                speak time |
+                speak date |
+                what | time | is | it | current | which | the | date |
+                show | tell | now | speak | show | thank you | nice | good
+                );
